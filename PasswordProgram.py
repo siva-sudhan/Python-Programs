@@ -9,7 +9,7 @@ for i in range(3,0,x):
     #if the entered password is correct login the user and exit the loop
     if(OriginalPassword == InputPassword):
         print("You have been logged in successfully!")
-        x = -3##loop exit condition
+        break##loop exit condition
     #if the entered password ask the user to try again for 3 attempts
     else:
         j = i-1
